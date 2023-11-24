@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+background-repeat: no-repeat;
+background-size: 100% 130%;
+}
+nav{
+    position: absolute;
+    display: flex;
+    padding-left:40px;
+    padding-top: 2%;
+    
+}
+nav ul{
+    display: inline-block;
+    list-style: none;   
+}
+nav ul li{
+    float: left;
+    padding-left:70px;
+}
+a{
+    text-decoration: none;
+    
+    padding: 10px 1px;
+    text-align: center;
+    color: rgb(249, 249, 248);
+    font-style: italic;
+    font-weight: bolder;
+    font-size:x-large;
+    text-shadow: 1px 2px black;    
+}
+a:hover{
+    display:relative;
+    color: rgb(43, 55, 226);
+}
+ .button{
+    float: right;
+    margin-top: 22px;
+    margin-right:50px; 
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+button{
+    padding: 8px 19px 4px 19px;
+    border-radius: 18px;
+    font-weight: bolder;
+    background-color:rgba(127, 255, 212, 0.856);  
+}
+button:hover{
+    color: antiquewhite;
+    background-color:orange;
+}
+.game {
+    width: 16%;
+    height:auto;
+  border-radius: 1500px;
+  box-shadow:1px 1px 10px red;
+} 
+p{
+    position: relative;
+    font-weight: 900;
+    font-size: x-large;
+    font-style: oblique;
+    color: antiquewhite;
+    text-shadow: 2px 1px rgba(241, 157, 241, 0.439);  
+}
+.j{
+    height:400px;
+    width:400px;
+    float: right;
+    border-radius:20px 20px 20px 20px;
+    box-shadow: 1px 1px 10px 10px rgba(155, 67, 67, 0.656);
+    margin-top:13% ;
+    animation:i 2s ease-in-out; 
+}
+@keyframes i{
+    0%{
+        opacity: 0;
+        transform: translateX(50%);
+    }
+}
+h1{
+    position: absolute;
+    padding-top:13% ;
+    padding-left: 12%;
+    font-size: 30px;
+    width: 500px;
+    color: rgb(250, 248, 248);
+    text-shadow: 2px 2px black;
+    font-style: italic;
+    animation: sony 1.5s ease-in-out;
+}
+@keyframes sony{
+    0%{
+        opacity: 0;
+        transform:translateY(-50%) ;
+    }
+}
+h2{
+    position: absolute;
+    padding-top:20% ;
+    padding-left: 12%;
+    font-size: 30px;
+    width: 500px;
+    color: rgb(247, 56, 8);
+    font-style: italic;
+    animation: about 1s ease-in-out;
+}
+@keyframes about{
+    0%{
+        opacity: 0;
+        transform:translateX(-50%) ;
+    }
+}
+h3{
+    position: absolute;
+    padding-top:24% ;
+    padding-left: 14%;
+    font-size: 20px;
+    width: 500px;
+    color: rgb(220, 245, 242);
+    font-style: oblique;
+    animation: con 1.5s ease-in-out;
+}
+@keyframes con {
+    0%{
+        opacity: 0;
+        transform:translateX(-50%) ;
+    }
+}
+.order{
+    position: absolute;
+    display: flex;
+    margin-top: 43%;
+    margin-left: 50%;
+    padding: 10px;
+    font-style: oblique;
+    font-weight: 900;
+}
+.order:hover{
+    background-color: rgba(70, 226, 43, 0.865);
+}
